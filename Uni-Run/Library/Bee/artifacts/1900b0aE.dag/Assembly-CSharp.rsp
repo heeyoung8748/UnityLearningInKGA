@@ -354,6 +354,7 @@
 "Assets/Scripts/PlatformSpawner.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/ScrollingObject.cs"
+"Assets/Scripts/UI/GameOverUI.cs"
 "Assets/Scripts/UI/ScoreText.cs"
 "Assets/Scripts/Util/SingletonBehavior.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

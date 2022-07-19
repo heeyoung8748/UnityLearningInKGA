@@ -20,7 +20,7 @@ private static class AnimationID // static클래스는 인스턴스화할 수 �
 {
     // 여기서 private라고 쓰면 AnimationID라는 클래스 내에서만 사용이 가능하게 된다. 그러므로 public으로 바꿔준다.
    public static readonly int IS_ON_GROUND = Animator.StringToHash("IsOnGround");
-   public static readonly int DIE = Animator.StringToHash("die");
+   public static readonly int DIE = Animator.StringToHash("Die");
 }
    
    private static readonly float MIN_NORMAL_Y = Mathf.Sin(45f * Mathf.Deg2Rad); // 외적
@@ -105,8 +105,7 @@ private static class AnimationID // static클래스는 인스턴스화할 수 �
             // 1. 점프 가능
             _isOnGround = true;
             _jumpCount = 0;
-
-            GameManager.Instance.AddScore();
+            // GameManager.Instance.AddcurrentScore();
        }
    }
 
