@@ -29,7 +29,6 @@
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
--define:UNITY_ANALYTICS
 -define:USE_SEARCH_ENGINE_API
 -define:USE_SEARCH_TABLE
 -define:USE_SEARCH_MODULE
@@ -364,18 +363,18 @@
 "Assets/Scripts/IItem.cs"
 "Assets/Scripts/ItemSpawner.cs"
 "Assets/Scripts/LivingEntity.cs"
-"Assets/Scripts/Player/PlayerAnimID.cs"
 "Assets/Scripts/Player/PlayerHealth.cs"
 "Assets/Scripts/Player/PlayerInput.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/Player/PlayerShooter.cs"
 "Assets/Scripts/Rotator.cs"
 "Assets/Scripts/UIManager.cs"
+"Assets/Scripts/Util/AnimID.cs"
 "Assets/Scripts/Util/Extention.cs"
 "Assets/Scripts/Util/SingletonBehavior.cs"
-"Assets/Scripts/Zombie.cs"
-"Assets/Scripts/ZombieData.cs"
-"Assets/Scripts/ZombieSpawner.cs"
+"Assets/Scripts/Zombie/Zombie.cs"
+"Assets/Scripts/Zombie/ZombieData.cs"
+"Assets/Scripts/Zombie/ZombieSpawner.cs"
 -langversion:9.0
 
 /deterministic
