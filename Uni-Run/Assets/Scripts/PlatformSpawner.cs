@@ -51,7 +51,5 @@ public class PlatformSpawner : MonoBehaviour {
         currentPlatform.SetActive(true);
         _nextSpawnPlatformIndex = (_nextSpawnPlatformIndex + 1) % MaxPlatformCount;
         }
-
-        // 2. 랜덤하게 배치한다.
     }
 }
